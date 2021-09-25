@@ -87,7 +87,7 @@ Widget build(BuildContext context) {
 * `sheetPadding`
 * `constraints`
 * `visualDensity`
-* `backgroundColor`: defaults to canvas color specified in current theme
+* `backgroundColor`
 * `elevation`
 * `shape`: defaults to a rectangle with rounded borders
 * `clipBehaviour`: clips everything outside of the specified shape

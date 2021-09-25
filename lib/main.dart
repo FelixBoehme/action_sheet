@@ -53,7 +53,7 @@ class Home extends StatelessWidget {
             ],
             actions: [],
             titleText: Text(
-              "Add",
+              "Create New",
               style: TextStyle(fontSize: 25),
             ),
           );

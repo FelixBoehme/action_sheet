@@ -131,7 +131,7 @@ enum WidgetPositioning {
 ///            ],
 ///            actions: [],
 ///            titleText: Text(
-///              "Add",
+///              "Create New",
 ///              style: TextStyle(fontSize: 25),
 ///            ),
 ///          );
@@ -140,6 +140,7 @@ enum WidgetPositioning {
 ///    );
 ///  }
 /// ```
+
 Future<T?> showBottomActionSheet<T>({
   required BuildContext context,
   required List<Widget> children,

@@ -57,7 +57,7 @@ Widget build(BuildContext context) {
            ],
            actions: [],
            titleText: Text(
-             "Add",
+             "Create New",
              style: TextStyle(fontSize: 25),
            ),
          );

@@ -1,9 +1,13 @@
 # Action Sheet
-This package provides a material bottom sheet with actions, replicating the one seen in Google Drive.
-
-Based on `showBottomSheet`.
+This package extends `showModalBottomSheet()` to provide a material bottom sheet with actions, replicating the one seen in Google Drive.
 
 ## Preview
+Dark Them | Light Theme
+--- | ---
+<img src=assets/dark_example.png width="500"> | <img src=assets/light_example.png width="500">
+
+Unless given `backgroundColor` and `widgetBorderColour` adjust according to the `Brightness` defined in the current theme.
+The color of Icons or other widgets have to be adjusted manually.
 
 ## Getting Started
 Add the package to your pubspec.yaml:
@@ -77,6 +81,7 @@ Widget build(BuildContext context) {
   * `WidgetPostioning.leftBound`: positions widgets in a grid from left to right
   * `WidgetPositioning.mainAxis`: positions widgets in a grid depending on `mainAxisAlignment`
 * `widgetBorderRadius`: radius for all borders around widgets
+* `widgetBorderColor`
 * `maxPerRow`: maximum amount of widgets/actions in each row, unless given adjusts to number of widgets given
 * `widgetBorderSize`: size of all borders surrounding the widgets
 * `widgetSplashRadius`

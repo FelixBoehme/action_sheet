@@ -1,4 +1,4 @@
-library sheet_actions;
+library action_sheet;
 
 import 'package:flutter/material.dart';
 

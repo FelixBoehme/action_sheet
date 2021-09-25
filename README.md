@@ -1,7 +1,5 @@
 # Action Sheet
-This package provides a material bottom sheet with actions, replicating the one seen in Google Drive.
-
-Based on `showBottomSheet`.
+This package extends `showModalBottomSheet()` to provide a material bottom sheet with actions, replicating the one seen in Google Drive.
 
 ## Preview
 Dark Them | Light Theme

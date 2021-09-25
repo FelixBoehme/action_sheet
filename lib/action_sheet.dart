@@ -48,7 +48,7 @@ enum WidgetPositioning {
 /// The `maxPerRow` parameter defines the maximum amount of widgets/actions per row.
 /// If no value is provided it tries to choose to most suitable one.
 ///
-/// The `widgetSize` parameter specifies the width and height used for
+/// The `widgetBorderSize` parameter specifies the width and height used for
 /// every widget/action. Defaults to 24.0
 ///
 /// The `widgetPadding` defines the padding used around every widget/action.
@@ -152,7 +152,7 @@ Future<T?> showBottomActionSheet<T>({
   BorderRadius? widgetBorderRadius,
   Color? widgetBorderColor,
   int? maxPerRow,
-  double widgetSize = 24.0,
+  double widgetBorderSize = 24.0,
   double? widgetSplashRadius,
   double? widgetBorderWidth = 1,
   EdgeInsetsGeometry widgetPadding = const EdgeInsets.all(8.0),
@@ -343,7 +343,7 @@ Future<T?> showBottomActionSheet<T>({
   /// according to [row] and [widgetIndex].
   /// A border is only shown if a function has been provided through [actions].
   /// Unless given the BorderColor defaults to black or white depending on [Brightness].
-  /// Unless a custom [splashRadius] has been given, [widgetSize] + 5 is used for splashes.
+  /// Unless a custom [splashRadius] has been given, [widgetBorderSize] + 5 is used for splashes.
   /// If no [descriptions] have been defined an empty Container is returned, making it invisible onscreen.
   /// After every Row except the last a spacer is returned. Unless given its height [rowGap] defaults to 14.0.
   for (var row = 0; row < neededRows; row++) {
@@ -377,14 +377,14 @@ Future<T?> showBottomActionSheet<T>({
                       child: Padding(
                         padding: widgetPadding,
                         child: SizedBox(
-                          height: widgetSize,
-                          width: widgetSize,
+                          height: widgetBorderSize,
+                          width: widgetBorderSize,
                           child: InkResponse(
                             child: Center(
                               child: widgetList[row][widgetIndex],
                             ),
                             onTap: onPressedList[row][widgetIndex],
-                            radius: widgetSplashRadius ?? widgetSize + 5,
+                            radius: widgetSplashRadius ?? widgetBorderSize + 5,
                           ),
                         ),
                       ),

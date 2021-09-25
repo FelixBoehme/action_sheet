@@ -21,11 +21,12 @@ Use `showBottomActionSheet` to return the bottom action sheet.
 
 
 ## Basic Usage
+See [Example](lib/example.dart).
+
 Required Arguments:
 * context: for building
 * children: widgets to display as actions
 * actions: function called on press
-
 
 ```dart
 Widget build(BuildContext context) {

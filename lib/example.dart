@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sheet_actions_test/action_sheet.dart';
+import 'package:action_sheet/action_sheet.dart';
 
 void main() {
   runApp(Example());

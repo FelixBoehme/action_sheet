@@ -21,11 +21,12 @@ Use `showBottomActionSheet` to return the bottom action sheet.
 
 
 ## Basic Usage
+See [Example](lib/example.dart).
+
 Required Arguments:
 * context: for building
 * children: widgets to display as actions
 * actions: function called on press
-
 
 ```dart
 Widget build(BuildContext context) {
@@ -86,7 +87,7 @@ Widget build(BuildContext context) {
 * `sheetPadding`
 * `constraints`
 * `visualDensity`
-* `backgroundColor`: defaults to canvas color specified in current theme
+* `backgroundColor`
 * `elevation`
 * `shape`: defaults to a rectangle with rounded borders
 * `clipBehaviour`: clips everything outside of the specified shape

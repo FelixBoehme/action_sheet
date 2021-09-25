@@ -2,7 +2,7 @@
 This package extends `showModalBottomSheet()` to provide a material bottom sheet with actions, replicating the one seen in Google Drive.
 
 ## Preview
-Dark Them | Light Theme
+Dark Theme | Light Theme
 --- | ---
 <img src=assets/dark_example.png width="500"> | <img src=assets/light_example.png width="500">
 

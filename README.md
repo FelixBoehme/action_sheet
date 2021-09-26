@@ -4,7 +4,7 @@ This package extends `showModalBottomSheet()` to provide a material bottom sheet
 ## Preview
 Dark Theme | Light Theme
 --- | ---
-<img src=assets/dark_example.png width="500"> | <img src=assets/light_example.png width="500">
+<img src=https://github.com/FelixBoehme/action_sheet/blob/master/assets/dark_example.png width="500"> | <img src=https://github.com/FelixBoehme/action_sheet/blob/master/assets/light_example.png width="500">
 
 Unless given `backgroundColor` and `widgetBorderColour` adjust according to the `Brightness` defined in the current theme.
 The color of Icons or other widgets have to be adjusted manually.
@@ -25,7 +25,7 @@ Use `showBottomActionSheet` to return the bottom action sheet.
 
 
 ## Basic Usage
-See [Example](lib/example.dart).
+See [Example](https://github.com/FelixBoehme/action_sheet/blob/master/example/example.dart).
 
 Required Arguments:
 * context: for building

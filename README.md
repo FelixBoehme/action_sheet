@@ -88,7 +88,7 @@ Widget build(BuildContext context) {
 * `widgetBorderWidth`
 * `widgetPadding`
 * `rowGap`: gap between each row
-* `mainAxisAlignment
+* `mainAxisAlignment`
 * `sheetPadding`
 * `constraints`
 * `visualDensity`

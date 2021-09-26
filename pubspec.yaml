@@ -1,6 +1,6 @@
 name: action_sheet
 version: 1.0.1
-description: A new Flutter project.
+description: A material bottom sheet with clickable actions as seen in Google Drive.
 repository: https://github.com/FelixBoehme/action_sheet/
 
 environment:

@@ -1,6 +1,10 @@
+## 1.0.2
+* Added an example
+* New Desription
+
 ## 1.0.1
-* fixed spelling mistakes
+* Fixed spelling mistakes
 
 ## 1.0.0
 
-* inital release
+* Inital release

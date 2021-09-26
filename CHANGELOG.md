@@ -1,3 +1,6 @@
+## 1.0.4
+* Fixed README.md typo
+
 ## 1.0.3
 * Fixed example pictures
 

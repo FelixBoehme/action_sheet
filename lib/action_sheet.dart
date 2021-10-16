@@ -421,6 +421,7 @@ Future<T?> showBottomActionSheet<T>({
     elevation: elevation,
     shape: shape,
     clipBehavior: clipBehaviour,
+    constraints: constraints,
     barrierColor: barrierColor,
     isScrollControlled: isScrollControlled,
     useRootNavigator: useRootNavigator,

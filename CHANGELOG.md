@@ -6,7 +6,7 @@
 
 ## 1.0.2
 * Added an example
-* New Desription
+* New Description
 
 ## 1.0.1
 * Fixed spelling mistakes
